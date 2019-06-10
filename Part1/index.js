@@ -46,15 +46,12 @@ if (topRight !== undefined && topRight === middleRight && topRight === bottomRig
 
 //CHECK FOR CAT'S GAME
 let boardFull = true;
-for (let i = 0; i <= board.length; i++){
+for (let i = 0; i <= 8; i++){
     if (board[i] === undefined){
         boardFull = false}
 }
+
 if (boardFull === true){
         alert("TIED! CAT'S GAME!")
 }
-}
-
-function reset (arr){
-    const board = [];
 }
